@@ -1,0 +1,5 @@
+from django.shortcuts import render
+from django.http import HttpResponse
+# Create your views here.
+def String1(request):
+    return HttpResponse('This is msg from App1!!!')
